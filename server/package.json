@@ -1,0 +1,16 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type":"module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Prathima Shrestha",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
