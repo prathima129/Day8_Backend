@@ -13,6 +13,11 @@ app.post("/register",(req,res)=>{
     console.log(userData)
     res.json(userData)
 });
+app.post("/students/:id",(req,res)=>{
+    let id = req.params.id;
+    console.log(id)
+    res.json(id)
+});
 app.listen(PORT,()=>{
     console.log(`Server is Running at http:/localhost:${PORT}`);
 });
